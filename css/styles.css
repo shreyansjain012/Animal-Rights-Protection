@@ -1,0 +1,117 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background-color: #1b262c;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.content_0 {
+  color: orangered;
+}
+.content_1 {
+  background-color: rgb(234, 108, 17);
+  padding: 20px 120px;
+  color: white;
+}
+
+.content_2 {
+  background-color: #eaeff1;
+  padding: 20px 120px;
+}
+
+.content_2 h3 {
+  color: rgb(234, 108, 17);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  padding: 20px 120px;
+  color: white;
+  background-color: #000000;
+}
+
+.footer-main-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding:20px 0px;
+}
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: rgb(234, 108, 17);
+}
+
+.footer-social-icons ul li a{
+    color: #272727;
+    font-size: 25px;
+}
+
+.footer-social-icons ul li a i {
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.footer-text {
+    color: rgb(234, 108, 17);
+}
+.fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 93vh;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: -99;
+  position: relative;
+  filter: brightness(75%);
+}
+
+.fullscreen-bg::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+
+  /* Any overlay color that you want, here I use black with 25% opacity */
+  /* background-color: rgba(0, 0, 0, 0.25); */
+}
