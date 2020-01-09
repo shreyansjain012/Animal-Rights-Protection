@@ -23,13 +23,13 @@
 }
 .content_1 {
   background-color: rgb(234, 108, 17);
-  padding: 20px 120px;
+/*   padding: 20px 120px; */
   color: white;
 }
 
 .content_2 {
   background-color: #eaeff1;
-  padding: 20px 120px;
+/*   padding: 20px 120px; */
 }
 
 .content_2 h3 {
@@ -41,12 +41,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.footer {
-  padding: 20px 120px;
-  color: white;
-  background-color: #000000;
 }
 
 .footer-main-div {
